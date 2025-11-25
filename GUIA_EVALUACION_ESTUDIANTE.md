@@ -3,6 +3,9 @@
 ## 🎯 Objetivo
 Esta guía te ayudará a entender **cómo será evaluado tu proyecto** y qué aspectos debes cuidar durante el desarrollo. La evaluación es **automatizada** y contempla 5 categorías principales.
 
+## 📋 Cambios recientes
+- Añadida la sección "🗂️ Qué incluye esta guía" para listar de forma rápida los temas evaluados y los artefactos esperados.
+
 ## 🗂️ Qué incluye esta guía
 - **Panorama de evaluación** con puntajes, porcentajes y nota mínima para aprobar.
 - **Desglose detallado por categoría**: algoritmo, arquitectura, testing, API REST y persistencia.
