@@ -35,10 +35,10 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.withType(Test).configureEach {
+tasks.named('test') {
     useJUnitPlatform()
-    // Use lazy task lookup to avoid configuration errors in IDEs before the task graph is ready
-    finalizedBy(tasks.named("jacocoTestReport"))
+    // Finalize with JaCoCo using lazy lookup to avoid IDE configuration errors when tasks load early
+    finalizedBy(tasks.named('jacocoTestReport'))
 }
 
 jacoco {
@@ -46,7 +46,7 @@ jacoco {
 }
 
 jacocoTestReport {
-    dependsOn test
+    dependsOn tasks.named('test')
     reports {
         xml.required = true
         html.required = true
