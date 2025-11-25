@@ -35,9 +35,9 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-test {
+tasks.withType(Test).configureEach {
     useJUnitPlatform()
-    finalizedBy jacocoTestReport
+    finalizedBy(tasks.named("jacocoTestReport"))
 }
 
 jacoco {
