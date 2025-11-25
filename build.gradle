@@ -37,6 +37,7 @@ dependencies {
 
 tasks.withType(Test).configureEach {
     useJUnitPlatform()
+    // Use lazy task lookup to avoid configuration errors in IDEs before the task graph is ready
     finalizedBy(tasks.named("jacocoTestReport"))
 }
 
