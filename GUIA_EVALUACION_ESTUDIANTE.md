@@ -3,6 +3,19 @@
 ## 🎯 Objetivo
 Esta guía te ayudará a entender **cómo será evaluado tu proyecto** y qué aspectos debes cuidar durante el desarrollo. La evaluación es **automatizada** y contempla 5 categorías principales.
 
+## 📋 Cambios recientes
+- Añadida la sección "🗂️ Qué incluye esta guía" para listar de forma rápida los temas evaluados y los artefactos esperados.
+
+## 🗂️ Qué incluye esta guía
+- **Panorama de evaluación** con puntajes, porcentajes y nota mínima para aprobar.
+- **Desglose detallado por categoría**: algoritmo, arquitectura, testing, API REST y persistencia.
+- **Optimización del detector** con estrategias de early termination, validación y comparaciones directas.
+- **Arquitectura en 6 capas** con uso recomendado de patrones, Lombok y manejo de excepciones.
+- **Testing y cobertura** con objetivos de número de pruebas, configuración de JaCoCo y casos obligatorios.
+- **Contratos y documentación de API** con Swagger, anotaciones y respuestas esperadas en cada endpoint.
+- **Persistencia con hash** para deduplicación, entidad JPA, repository y consultas necesarias.
+- **Checklist de entrega y comandos** para validar requisitos antes de finalizar el proyecto.
+
 ---
 
 ## 📈 Distribución de Puntos (Total: 100 puntos)
